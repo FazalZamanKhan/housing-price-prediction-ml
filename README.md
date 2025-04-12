@@ -141,6 +141,15 @@ MIT License
 
 ---
 
+
+Hugging Face repo link:
+https://huggingface.co/fazal33/HOUSES_PRICE_PREDICTOR
+
+
+web UI link:
+http://127.0.0.1:5000
+
+
 ## 👤 Author
 
 **Fazal Zaman**  
