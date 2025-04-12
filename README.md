@@ -149,6 +149,8 @@ https://huggingface.co/fazal33/HOUSES_PRICE_PREDICTOR
 web UI link:
 http://127.0.0.1:5000
 
+W & B  Project Dashboard :
+https://wandb.ai/fazalzamanper-fast-university/california-housing-price/runs/vxo9nku8?nw=nwuserfazalzamanper
 
 ## 👤 Author
 
