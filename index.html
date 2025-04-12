@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>California Housing Price Predictor</title>
+</head>
+<body>
+  <h2>California Housing Price Predictor</h2>
+  <form action="/predict" method="post">
+    <label>Longitude:</label><input type="number" name="longitude" step="any"><br>
+    <label>Latitude:</label><input type="number" name="latitude" step="any"><br>
+    <label>Housing Median Age:</label><input type="number" name="housing_median_age"><br>
+    <label>Total Rooms:</label><input type="number" name="total_rooms"><br>
+    <label>Total Bedrooms:</label><input type="number" name="total_bedrooms"><br>
+    <label>Population:</label><input type="number" name="population"><br>
+    <label>Households:</label><input type="number" name="households"><br>
+    <label>Median Income:</label><input type="number" name="median_income" step="any"><br>
+    <label>Ocean Proximity:</label>
+    <select name="ocean_proximity">
+      <option value="<1H_OCEAN">&lt;1H_OCEAN</option>
+      <option value="INLAND">INLAND</option>
+      <option value="ISLAND">ISLAND</option>
+      <option value="NEAR_BAY">NEAR_BAY</option>
+      <option value="NEAR_OCEAN">NEAR_OCEAN</option>
+    </select><br><br>
+    <button type="submit">Predict</button>
+  </form>
+
+  <h3>{{ prediction_text }}</h3>
+</body>
+</html>
